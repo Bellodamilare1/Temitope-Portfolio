@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/dammy.img.jpg" />
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dammy Portfolio</title>
+</head>
+
+<body class="body-theme">
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Dammy</a> 
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">My Tech Stack</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#blog" class="nav__link">Blog</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact me</a></li> 
+                    <div class="d-flex change-theme">
+                        <i class="uil uil-moon" id="theme-toggle"></i>
+                    </div>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div> 
+        </nav>
+    </header>
+  
+<!--===== home =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi<span class="wave">👋</span>,<br>I'm <span class="home__title-color">Bello Damilare</span><br>
+                    <span class="type"></span><br> based in Lagos, Nigeria</br>
+                </h1>
+                <p>I Build Digital Software products Using the Best Technologies 🚀</p>
+                <a href="#contact" class="bttn">Hire me <i class="fas fa-laptop-code"></i></a>
+            </div>
+
+            <div class="home__social">
+                <a target="_blank" href="https://www.facebook.com/dammy.frosh.545402/" class="home__social-icon"><i
+                        class='bx bxl-facebook'></i></a>
+                <a target="_blank" href="https://twitter.com/dammyfr6084529" class="home__social-icon"><i
+                        class='bx bxl-twitter'></i></a>
+                <a target="_blank" href="https://github.com/Bellodamilare1" class="home__social-icon"><i
+                        class='bx bxl-github'></i></a>
+                <a href="#about" class="scroll-down">
+                    Scroll down
+                    <svg class="scroll-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="home__img">
+                <img src="img/dammy.img.jpg" alt="Dami">
+            </div>
+
+      
+
+            <div class="home__img">
+                <img src="img/dammy.img.jpg" alt="Dammy">
+            </div>
+
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+         <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="img/temi.png"  alt="temi" caption="Dammy">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">Dammy</h2>
+                    <p class="first__text">I am an Experienced Frontend Software Engineer immuned with fervor and creative skills to turn Ideas related to Tech into Real life Projects, I have an
+                        out of the box thought process to deliver unique and Scalable products, Always a big fan of minimalistic designs with great business logic. I am a thoroughbred IT Systems Engineer with a knack for solving Tech related problems. 
+                        I am self-motivated, smartworking, and a curious team player who is always willing to learn new technologies. I provide clear synopsis for high level overview.
+                    </p><br>
+                    <p class="second__text">I'm very adept in <em><strong>MATLAB, Python, JavaScript, Nodejs, Reactjs and
+                        Flutter/Dart</strong></em>. At my leisure time, you can catch me playing around with Data Structures and Algorithms on Hackerrank, Leetcode and Codewars.
+                        The aim is using Machine learning in synergy with Software Engineering to solve complex problems.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">My Tech Stack</h2>
+            <div class="skills__container bd-grid">
+                <div class="stack">
+                    <img src="img/html5.png" alt="html" class="skills__img" width= "90" height="90">
+                    <img src="img/css3.png" alt="css3" class="skills__img" width="70" height="70" >
+                    <img src="img/js.png" alt="javascript" class="skills__img" width="70" height="70" >
+                    <img src="img/node.png" alt="node" class="skills__img" width="80" height="80" >
+                    <img src="img/react.png" alt="react" class="skills__img" width="70" height="70" >
+                    <img src="img/typescript.png" alt="typescript" class="skills__img" width="70">
+                    <img src="img/python.png" alt="python" class="skills__img" width="90" height="90" >
+                    <img src="img/flutter.png" alt="flutter" class="skills__img" width="90" height="90" >
+                    <img src="img/git.png" alt="git" class="skills__img" width="55" height="55" style="margin-left: 15px;">
+                    <img src="img/firebase.png" alt="firebase" class="skills__img" width="55" height="55">
+                    <img src="img/mysql.png" alt="mysql" class="skills__img" width="100" height="100" style="margin-top: -30px; margin-left: -10px;">
+                    <img src="img/wordpress.png" alt="mysql" class="skills__img" width="55" height="55" style="margin-top: -5px; margin-left: 20px;" >
+                  
+
+                </div>
+            </div>
+        </section>
+
+        <!--===== PROJECT =====-->
+
+     <section class="projects-section bd-grid" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects">
+                <div class="projects__box">
+                    <a href="http://guidedpathsolicitors.herokuapp.com/" target= _blank ><img class="projects__image"  src="img/guidedpaths.png" alt="guidedpath"></a>
+                    <h3 class="projects__name">Guided Paths Solicitors</h3>
+                    <p class="projects__description">A Legal firm Website.</p> 
+                    <a href="http://guidedpathsolicitors.herokuapp.com/" target= _blank class="projects__link">
+                        Explore Project</a> <a href="https://github.com/temitopeakin1/guidedpathsolicitors" target= _blank><i class="fa-brands fa-github"></i></a>
+                    <div class="tools">HTML 5 | CSS3 | PHP | JAVASCRIPT | MYSQL</div>
+                </div>
+                <div class="projects__box">
+                    <a href="https://www.dcsaconsults/" target= _blank><img class="projects__image" src="img/dcsaconsults.png" alt="dcsa"></a>
+                    <h3 class="projects__name">Dcsa Consults</h3>
+                    <p class="projects__description">Drug Consultancy Company</p>
+                    <a href="https://dcsaconsults.net/"  target= _blank class="projects__link">
+                        Explore Project </a> <a href="https://github.com/temitopeakin1/dcsaconsults" target= _blank><i class="fa-brands fa-github"></i></a>
+                    <div class="tools">HTML 5 | CSS3 | JAVASCRIPT</div>
+                </div>
+                <div class="projects__box">
+                    <a href="https://www.firmlordhair.com.ng"  target= _blank ><img class="projects__image" src="img/firmlord.png" alt="firmlord"></a>
+                    <h3 class="projects__name">Firmlord hairs</h3>
+                    <p class="projects__description">E-commerce website</p>
+                    <a href="https://www.firmlordhair.com.ng/" target= _blank class="projects__link">
+                        Explore Project
+                    </a>
+                    <div class="tools">HTML 5 | CSS3 | WORDPRESS</div>
+                </div>
+                <div class="projects__box">
+                    <a href="https://tmeghaquizcard.netlify.app/" target="_blank"><img class="projects__image" src="img/quizapp.png"></a>
+                   <h3 class="projects__name">Quiz App</h3>
+                    <p class="projects__description">Quiz App </p>
+                    <a href="https://tmeghaquizcard.netlify.app/"  class="projects__link" target="_blank">
+                        Explore Project  </a> <a href="https://github.com/temitopeakin1/React-Quiz-Cards" target= _blank><i class="fa-brands fa-github"></i></a>
+                    <div class="tools">REACT | TYPESCRIPT | AXIOS</div>
+                </div>
+                <div class="projects__box">
+                    <a href="" target= _blank><img class="projects__image" src="img/tomato restaurant.png" alt="marv"></a>
+                    <h3 class="projects__name"> Landing Page Of Tomato Restaurant</h3>
+                    <p class="projects__description">Tomato Restaurant</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.dynastytech.marvapp" target= _blank class="projects__link">
+                        Explore Project  </a> <a href="https://github.com/temitopeakin1/marvlight-tutors" target= _blank><i class="fa-brands fa-github"></i></a>
+                    <div class="tools">HTML5 | CSS3 | JAVASCRIPT</div>
+                </div>
+                <div class="projects__box">
+                    <a href="https://www.spinelrealtygroup.com/" target= _blank ><img class="projects__image" src="img/spinelrealtygroup.png" alt="spinel"></a>
+                    <h3 class="projects__name">Spinel Realty Group</h3>
+                    <p class="projects__description">Realtor Website</p>
+                    <a href="https://www.spinelrealtygroup.com/" target= _blank class="projects__link">
+                        Explore Project
+                    </a>
+                    <div class="tools">HTML 5 | CSS3 | WORDPRESS</div>
+                </div>
+                <div class="projects__box">
+                    <a href="https://covid-statistics-worldwide.netlify.app/" target= _blank><img class="projects__image" src="img/covid.png" alt="covid-tracker"></a>
+                    <h3 class="projects__name">Covid 19 tracker</h3>
+                    <p class="projects__description">Covid Statistics Worldwide</p>
+                    <a href="https://covid-statistics-worldwide.netlify.app/" target= _blank class="projects__link">
+                        Explore Project </a> <a href="https://github.com/temitopeakin1/worldwide-covid-statistics" target= _blank><i class="fa-brands fa-github"></i></a>
+                    <div class="tools">REACT | CSS3 | AXIOS | CHARTJS | MATERIAL UI </div>
+                </div>
+                <div class="projects__box">
+                    <a href="http://lagoonsideeventscentre.com.ng/" target= _blank><img class="projects__image" src="img/Lagoon side img.png" alt="task-scheduler"></a>
+                    <h3 class="projects__name">Lagoon Side Event Centre</h3>
+                    <p class="projects__description">Event Centre</p>
+                    <a href="http://lagoonsideeventscentre.com.ng/" target= _blank class="projects__link">
+                        Explore Project </a> <a href="" target= _blank><i class="fa-brands fa-github"></i></a>
+                        <div class="tools">HTML5 | CSS3 | JAVASCRIPT </div>
+                </div>
+                <div class="projects__box">
+                    <a href="https://bellodamilare1.github.io/Portfolio/#welcome-section"><img class="projects__image" src="img/Portfolio img.png" alt="Dammy Portfolio"></a>
+                    <h3 class="projects__name">Dammy</h3>
+                    <p class="projects__description">My Portfolio Website</p>
+                    <a href="#" class="projects__link">
+                        Explore Project </a> <a href="" target= _blank><i class="fa-brands fa-github"></i></a>
+                    <div class="tools">HTML5 | CSS3 | JAVASCRIPT </div>
+                </div>
+                <div class="projects__box">
+                    <a href=""><img class="projects__image" src="img/Dami Favicon.png" alt="Dammy Portfolio"></a>
+                    <h3 class="projects__name">Dammy</h3>
+                    <p class="projects__description">My Portfolio Website</p>
+                    <a href="#" class="projects__link">
+                        Explore Project </a> <a href="" target= _blank><i class="fa-brands fa-github"></i></a>
+                    <div class="tools">HTML5 | CSS3 | JAVASCRIPT </div>
+                </div>
+             </div>
+         </div>
+            <div class="projects__btn">
+                <a href="https://github.com/Bellodamilare1" class="button"  target="_blank" rel="noopener noreferrer">
+                    View more Projects here   <i class="fab fa-github"></i>
+                 </a>
+            </div>
+        </section>
+
+        <section class="blog bd-grid" id="blog">
+            <h2 class="section-title">Blog</h2>
+            <p class="subtitle">I also get involved in writing Technical articles <i class="fas fa-hand-point-down"></i></p>
+            <div class="blog-content">
+                <p>...coming soon 😎</p>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+      <section class="contact bd-grid" id="contact">
+                <h2 class="title">Contact me</h2>
+                <div class="contact-content">
+                    <div class="left">
+                        <div class="text">Get in Touch</div>
+                        <div class="icons">
+                            <div class="row">
+                                <i class="fas fa-user"></i>
+                                <div class="info">
+                                    <div class="sub-title">Bello Damilare</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="info">
+                                    <div class="sub-title">Lagos, Nigeria</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-envelope"></i>
+                                <div class="info">
+                                    <div class="sub-title"><a href="mailto: Dammyfrosh290@gmail.com">Dammyfrosh290@gmail.com</a></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-mobile-alt"></i></i>
+                                <div class="info">
+                                    <div class="sub-title"><a href="https://api.whatsapp.com/send?phone=2348112785465&text=Hello,%20What%20%20software%20project%20would%20you%20have%20me%20carry%20out">+2349083668768</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="text">Lets have a Chat about your next project</div>
+                        <form action="https://formsubmit.co/dammyfrosh290@gmail.com" method="POST">
+                            <div class="fields">
+                                <div class="field name">
+                                    <input type="text" placeholder="Name" required>
+                                </div>
+                                <input type="hidden" name="_captcha" value="false">
+                                <div class="field email">
+                                    <input type="email" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <input type="text" placeholder="Project Title" required>
+                            </div>
+                            <div class="field textarea">
+                                <textarea cols="50" rows="20" placeholder="Project Description.." required></textarea>
+                            </div>
+                            <button class="button" type="submit" value="Submit">Shoot <i class="fab fa-telegram-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+        </section>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+            <div class="btnScrollToTop">
+                <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+            </div>
+        <p class="footer__title">Designed & Developed by Dammy</p>
+        <div class="footer__social">
+            <a href="https://twitter.com/dammyfr6084529" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+            <a href="https://github.com/Bellodamilare1" class="footer__icon"><i class='bx bxl-github'></i></a>
+            <a href="mailto: dammyfrosh290@gmail.com" class="footer__icon"><i class='fa fa-envelope'></i></a>
+        </div>
+        <body onload="getUTC()">
+            <div id="utc"></div>
+        <p>Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> All rights reserved | Dammy
+        </p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+</html>
